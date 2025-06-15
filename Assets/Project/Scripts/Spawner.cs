@@ -14,17 +14,17 @@ namespace Project.Scripts
             {
                 case DragonSettings dragonSettings:
                     Dragon dragon = Instantiate(_dragonPrefab, position, Quaternion.identity);
-                    dragon.Initialize(dragonSettings.energy, dragonSettings.magicPower, dragonSettings.shield);
+                    dragon.Initialize(dragonSettings.Energy, dragonSettings.MagicPower, dragonSettings.Shield);
                     return dragon;
                 
                 case ElfSettings elfSettings:
                     Elf elf = Instantiate(_elfPrefab, position, Quaternion.identity);
-                    elf.Initialize(elfSettings.accuracy, elfSettings.rangeAttack, elfSettings.dodge);
+                    elf.Initialize(elfSettings.Accuracy, elfSettings.RangeAttack, elfSettings.Dodge);
                     return elf;
                 
                 case OrсSettings orcSettings:
                     Orс orс = Instantiate(_orсPrefab, position, Quaternion.identity);
-                    orс.Initialize(orcSettings.endurance, orcSettings.meleeAttack, orcSettings.armor);
+                    orс.Initialize(orcSettings.Endurance, orcSettings.MeleeAttack, orcSettings.Armor);
                     return orс;
                 
                 default:

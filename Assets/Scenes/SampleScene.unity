@@ -507,35 +507,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dragonSettingsList:
-  - energy: 1
-    magicPower: 1
-    shield: 1
-  - energy: 2
-    magicPower: 2
-    shield: 2
-  - energy: 3
-    magicPower: 3
-    shield: 3
+  - <Energy>k__BackingField: 1
+    <MagicPower>k__BackingField: 1
+    <Shield>k__BackingField: 1
+  - <Energy>k__BackingField: 2
+    <MagicPower>k__BackingField: 2
+    <Shield>k__BackingField: 2
+  - <Energy>k__BackingField: 3
+    <MagicPower>k__BackingField: 3
+    <Shield>k__BackingField: 3
   _elfSettingsList:
-  - accuracy: 1
-    rangeAttack: 1
-    dodge: 1
-  - accuracy: 2
-    rangeAttack: 2
-    dodge: 2
-  - accuracy: 3
-    rangeAttack: 3
-    dodge: 3
+  - <Accuracy>k__BackingField: 1
+    <RangeAttack>k__BackingField: 1
+    <Dodge>k__BackingField: 1
+  - <Accuracy>k__BackingField: 2
+    <RangeAttack>k__BackingField: 2
+    <Dodge>k__BackingField: 2
+  - <Accuracy>k__BackingField: 3
+    <RangeAttack>k__BackingField: 3
+    <Dodge>k__BackingField: 3
   _orcSettingsList:
-  - endurance: 1
-    meleeAttack: 1
-    armor: 1
-  - endurance: 2
-    meleeAttack: 2
-    armor: 2
-  - endurance: 3
-    meleeAttack: 3
-    armor: 3
+  - <Endurance>k__BackingField: 1
+    <MeleeAttack>k__BackingField: 1
+    <Armor>k__BackingField: 1
+  - <Endurance>k__BackingField: 2
+    <MeleeAttack>k__BackingField: 2
+    <Armor>k__BackingField: 2
+  - <Endurance>k__BackingField: 3
+    <MeleeAttack>k__BackingField: 3
+    <Armor>k__BackingField: 3
   _spawner: {fileID: 623335303}
 --- !u!4 &1147673344
 Transform:
